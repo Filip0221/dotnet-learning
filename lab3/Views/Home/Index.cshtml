@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var value = (double)ViewData["random"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@DateTime.Now.ToLongDateString()</p>
+    <p style="background-color:@(value > 0.5 ? "red" : "transparent")">@value</p>
+</div>

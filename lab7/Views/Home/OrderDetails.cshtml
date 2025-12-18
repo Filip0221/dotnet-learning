@@ -1,0 +1,49 @@
+@model lab7.Models.Invoice
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>Order Details</h2>
+<h4>Invoice</h4>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-2">Invoice ID</dt>
+    <dd class="col-sm-10">@Model.InvoiceId</dd>
+
+    <dt class="col-sm-2">Invoice Date</dt>
+    <dd class="col-sm-10">@Model.InvoiceDate.ToShortDateString()</dd>
+
+    <dt class="col-sm-2">Billing Address</dt>
+    <dd class="col-sm-10">
+        @($"{Model.BillingAddress} {Model.BillingPostalCode} {Model.BillingCity} {Model.BillingState} {Model.BillingCountry}")
+    </dd>
+
+    <dt class="col-sm-2">Total</dt>
+    <dd class="col-sm-10">@Model.Total.ToString("C")</dd>
+    <dt class="col-sm-2">Ordered Songs</dt>
+    <dd class="col-sm-10"><table class="table">
+    <thead>
+        <tr>
+            <th>Track ID</th>
+            <th>Track</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var line in Model.InvoiceLines)
+    {
+        <tr>
+            <td>@line.TrackId</td>
+            <td>@line.Track.Name</td>
+            <td>@line.UnitPrice.ToString("C")</td>
+        </tr>
+    }
+    </tbody>
+</table></dd>
+</dl>
+
+
+
+<a asp-action="MyOrders">Back to List</a>

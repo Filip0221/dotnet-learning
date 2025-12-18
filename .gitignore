@@ -1,0 +1,56 @@
+## Build results
+bin/
+obj/
+
+## Visual Studio
+.vs/
+.vscode/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+.nuget/packages/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Environment / secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+*.pfx
+*.cer
+
+## Publish output
+publish/
+wwwroot/lib/
+
+## Test results
+TestResults/
+
+## EF Core
+Migrations/*.cs
+!Migrations/*.Designer.cs
+!Migrations/*Snapshot.cs
+
+## Azure
+.azure/
+

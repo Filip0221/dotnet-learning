@@ -1,0 +1,10 @@
+tworzenie proojektu
+dotnet new console -f net8.0 -n nazwa
+
+budowanie 
+dotnet build
+
+start apki
+dotnet run
+
+dotnet watch run -- spoko bo na bierzonco akualizuje
