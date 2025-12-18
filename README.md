@@ -72,16 +72,16 @@ Każdy folder to oddzielny projekt. Aby go uruchomić, wykonaj następujące kro
 
 Bash
 
-# Wejdź do folderu wybranego laboratorium
+#### Wejdź do folderu wybranego laboratorium
 cd Lab3
 
-# Przywróć zależności NuGet
+#### Przywróć zależności NuGet
 dotnet restore
 
-# (Opcjonalnie) Zaktualizuj bazę danych, jeśli projekt korzysta z EF Core
+#### (Opcjonalnie) Zaktualizuj bazę danych, jeśli projekt korzysta z EF Core
 dotnet ef database update
 
-# Uruchom aplikację
+#### Uruchom aplikację
 dotnet run
 
 ### 5. Dostęp do aplikacji
