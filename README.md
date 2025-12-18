@@ -47,7 +47,43 @@ Budowa usług RESTful, ich zabezpieczanie oraz weryfikacja poprawności działan
 
 ---
 
-## Instrukcja uruchomienia
-1. Sklonuj repozytorium:
-   ```bash
-   git clone [https://github.com/TwojLogin/dotnet-learning.git](https://github.com/TwojLogin/dotnet-learning.git)
+## Instrukcja uruchomienia i przygotowania środowiska
+
+### 1. Wymagania wstępne
+Aby uruchomić projekty, na Twoim komputerze muszą być zainstalowane:
+* **.NET SDK** (zalecana wersja 6.0 lub nowsza).
+* **IDE**: Visual Studio 2022, JetBrains Rider lub VS Code z rozszerzeniem C# Dev Kit.
+* **Baza danych**: SQL Server Express (LocalDB) lub SQLite.
+
+### 2. Pobieranie projektu
+Sklonuj repozytorium na swój dysk lokalny:
+git clone [https://github.com/TwojLogin/dotnet-learning.git](https://github.com/TwojLogin/dotnet-learning.git)
+cd dotnet-learning
+
+### 3. Przygotowanie narzędzi EF Core
+Jeśli projekt wymaga migracji bazy danych, upewnij się, że masz zainstalowane narzędzia globalne:
+
+Bash
+
+dotnet tool install --global dotnet-ef
+
+### 4. Uruchomienie wybranego laboratorium
+Każdy folder to oddzielny projekt. Aby go uruchomić, wykonaj następujące kroki (przykład dla Lab 3):
+
+Bash
+
+# Wejdź do folderu wybranego laboratorium
+cd Lab3
+
+# Przywróć zależności NuGet
+dotnet restore
+
+# (Opcjonalnie) Zaktualizuj bazę danych, jeśli projekt korzysta z EF Core
+dotnet ef database update
+
+# Uruchom aplikację
+dotnet run
+
+### 5. Dostęp do aplikacji
+Aplikacje Web: Po uruchomieniu konsola wyświetli adres (zazwyczaj https://localhost:5001 lub https://localhost:7001).
+Web API: Dokumentacja techniczna (Swagger) jest zazwyczaj dostępna pod adresem https://localhost:PORT/swagger.
