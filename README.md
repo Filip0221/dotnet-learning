@@ -19,7 +19,7 @@ Poniższa tabela przedstawia program kursu oraz aktualny stan wykonania poszczeg
 | **Lab 1** | Aplikacja konsolowa w C# (Paradygmat obiektowy) | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 2** | Przetwarzanie danych za pomocą LINQ | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 3** | Aplikacja internetowa w architekturze MVC | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
-| **Lab 4** | Aplikacja internetowa - podejście Razor Pages | ![W planach](https://img.shields.io/badge/Status-W_planach-lightgrey) |
+| **Lab 4** | Aplikacja internetowa - podejście Razor Pages | ![W planach](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 5** | Obsługa bazy danych oraz mechanizm ORM | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 6** | Walidacja danych użytkownika po stronie aplikacji | ![W planach](https://img.shields.io/badge/Status-W_planach-lightgrey) |
 | **Lab 7** | Tworzenie aplikacji w podejściu "Database First" | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
