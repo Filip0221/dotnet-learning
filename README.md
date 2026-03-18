@@ -21,7 +21,7 @@ Poniższa tabela przedstawia program kursu oraz aktualny stan wykonania poszczeg
 | **Lab 3** | Aplikacja internetowa w architekturze MVC | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 4** | Aplikacja internetowa - podejście Razor Pages | ![W planach](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 5** | Obsługa bazy danych oraz mechanizm ORM | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
-| **Lab 6** | Walidacja danych użytkownika po stronie aplikacji | ![W planach](https://img.shields.io/badge/Status-W_planach-lightgrey) |
+| **Lab 6** | Walidacja danych użytkownika po stronie aplikacji | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 7** | Tworzenie aplikacji w podejściu "Database First" | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 8** | Tworzenie usług typu Web API | ![Zakończone](https://img.shields.io/badge/Status-Zakończone-success) |
 | **Lab 9** | Uwierzytelnianie w aplikacji typu API | ![W planach](https://img.shields.io/badge/Status-W_planach-lightgrey) |
